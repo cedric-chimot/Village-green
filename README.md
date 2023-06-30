@@ -34,8 +34,13 @@ _- Le panier :_
 
 _- Les commandes :_
 
-![commandes-village](https://github.com/cedric-chimot/Village-green/assets/106061524/e2771d52-2750-47a0-b23b-07ab75053b02)
+_Validation de commande ->_
+
 ![commandes1-village](https://github.com/cedric-chimot/Village-green/assets/106061524/9c7c31bc-9dc0-4848-b5a4-06dbe32f3114)
+
+_Récapitulatif des commandes passées ->_
+
+![commandes-village](https://github.com/cedric-chimot/Village-green/assets/106061524/e2771d52-2750-47a0-b23b-07ab75053b02)
 
 _- Avis sur les commandes passées :_
 
