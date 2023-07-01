@@ -4,6 +4,12 @@
 
 # 1- Présentation
 
+# _1.1 Introduction_
+
+Village green est le projet fil-rouge sur lequel j'ai travaillé durant ma formation Développeur web et web mobile. C'est un site de vente d'instrument et de matériel de musique.
+
+# _1.2_
+
 # 2- La base de données
 
 ![MCD](https://github.com/cedric-chimot/Village-green/assets/106061524/909e54a1-e488-45ed-bcab-b4263c43a9ce)
