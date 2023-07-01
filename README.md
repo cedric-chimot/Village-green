@@ -50,6 +50,7 @@ _Côté Client :_
 - Javascript
 - PHP
 - Mysql
+- Looping
 
 # 2- La base de données
 
