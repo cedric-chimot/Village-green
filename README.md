@@ -17,13 +17,14 @@ _- Mise en place du cahier des charges :_
 Selon le cahier des charges, un administrateur doit pouvoir accéder à toutes les commandes selon leur statut (en retard, annulée etc…) et en gérer la modification. Il doit aussi avoir la possibilité d’ajouter de nouveaux produits, de modifier ou de supprimer ceux existants.
 Le client pourra ajouter des produits dans le panier et passer des commandes. Il pourra également donner une note à son expérience sur le site par l’intermédiaire d’un formulaire seulement si la commande possède un statut particulier.
 Seul un client possédant un compte et étant connecté aura accès à toutes les fonctionnalités du site, comme ajouter des produits au panier ou voir le récapitulatif des ses commandes effectuées par exemple. 
-Fonctionnalités
+
+_- Fonctionnalités :_
 
 Concernant la gestion du site, l’objectif du projet est de créer un tableau de bord qui pourra permettre aux administrateurs de gérer les produits, les commandes, les comptes d’utilisateurs et son propre compte admin.
 
 _- Droits Admin/Clients :_
 
-_- Côté Admin :_
+_Côté Admin :_
 
 -	Gestion des clients : L’administrateur pourra supprimer des clients (D). 
 
@@ -33,7 +34,7 @@ _- Côté Admin :_
 
 -	Gestion des Commandes : L’administrateur pourra créer, lire, modifier et supprimer des commandes (CRUD).
 
-_- Côté Client :_
+_Côté Client :_
 
 -	Panier : Le client pourra ajouter des produits au panier, supprimer tout ou partie de celui-ci, modifier la quantité des produits déjà ajoutés (CRUD).
 
@@ -53,6 +54,8 @@ _- Côté Client :_
 - Mysql
 
 # 2- La base de données
+
+A l’aide du logiciel de modélisation conceptuelle de données ‘Looping’, j’ai commencé par réaliser le MCD (Modèle Conceptuel de Données) en suivant les demandes du cahier des charges.
 
 ![MCD](https://github.com/cedric-chimot/Village-green/assets/106061524/909e54a1-e488-45ed-bcab-b4263c43a9ce)
 
