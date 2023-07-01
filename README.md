@@ -2,11 +2,47 @@
 
 # Projet fil rouge de formation Développeur web et web mobile
 
-# 1- Présentation
+# 1- Présentation du projet
 
-# _1.1-  Introduction_
+# _1.1- Le projet_
 
-Village green est le projet fil-rouge sur lequel j'ai travaillé durant ma formation Développeur web et web mobile. C'est un site de vente d'instrument et de matériel de musique.
+_- Expression des besoins :_
+
+Le projet est un site e-commerce de vente de matériel de musique (instruments, accessoires etc…). Il doit comporter un panier avec la possibilité de passer des commandes.
+L’administrateur devra pouvoir gérer le site complètement, aussi bien la partie client que la partie commandes.
+Le client aura la possibilité de pouvoir trouver des produits selon les différentes catégories proposées.
+
+_- Mise en place du cahier des charges :_
+
+Selon le cahier des charges, un administrateur doit pouvoir accéder à toutes les commandes selon leur statut (en retard, annulée etc…) et en gérer la modification. Il doit aussi avoir la possibilité d’ajouter de nouveaux produits, de modifier ou de supprimer ceux existants.
+Le client pourra ajouter des produits dans le panier et passer des commandes. Il pourra également donner une note à son expérience sur le site par l’intermédiaire d’un formulaire seulement si la commande possède un statut particulier.
+Seul un client possédant un compte et étant connecté aura accès à toutes les fonctionnalités du site, comme ajouter des produits au panier ou voir le récapitulatif des ses commandes effectuées par exemple. 
+Fonctionnalités
+
+Concernant la gestion du site, l’objectif du projet est de créer un tableau de bord qui pourra permettre aux administrateurs de gérer les produits, les commandes, les comptes d’utilisateurs et son propre compte admin.
+
+_- Droits Admin/Clients :_
+
+_- Côté Admin :_
+
+-	Gestion des clients : L’administrateur pourra supprimer des clients (D). 
+
+-	Gestion des Admins : L’administrateur pourra créer, lire, modifier et supprimer son compte d’amin (CRUD).
+
+-	Gestion des Produits : L’administrateur pourra créer, lire, modifier et supprimer des produits (CRUD).
+
+-	Gestion des Commandes : L’administrateur pourra créer, lire, modifier et supprimer des commandes (CRUD).
+
+_- Côté Client :_
+
+-	Panier : Le client pourra ajouter des produits au panier, supprimer tout ou partie de celui-ci, modifier la quantité des produits déjà ajoutés (CRUD).
+
+-	Evaluation : Si une commande possède le statut ‘terminée’, le client aura la possibilité de laisser une évaluation sous forme d’étoiles à attribuer de 0 à 5 (CRD).
+
+-	Gestion de son compte : Le client pourra créer et modifier son compte client (CRU).
+
+-	Message : Le client aura la possibilité d’envoyer un message (C).
+
 
 # _1.2- Technologies utilisées_
 
