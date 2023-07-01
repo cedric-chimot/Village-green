@@ -4,11 +4,17 @@
 
 # 1- Présentation
 
-# _1.1 Introduction_
+# _1.1-  Introduction_
 
 Village green est le projet fil-rouge sur lequel j'ai travaillé durant ma formation Développeur web et web mobile. C'est un site de vente d'instrument et de matériel de musique.
 
-# _1.2_
+# _1.2- Technologies utilisées_
+
+- HTML
+- CSS
+- Javascript
+- PHP
+- Mysql
 
 # 2- La base de données
 
