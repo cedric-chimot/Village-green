@@ -4,25 +4,23 @@
 
 # 1- Présentation du projet
 
-# _1.1- Le projet_
-
-_- Expression des besoins :_
+# _1.1- Expression des besoins :_
 
 Le projet est un site e-commerce de vente de matériel de musique (instruments, accessoires etc…). Il doit comporter un panier avec la possibilité de passer des commandes.
 L’administrateur devra pouvoir gérer le site complètement, aussi bien la partie client que la partie commandes.
 Le client aura la possibilité de pouvoir trouver des produits selon les différentes catégories proposées.
 
-_- Mise en place du cahier des charges :_
+# _1.2- Mise en place du cahier des charges :_
 
 Selon le cahier des charges, un administrateur doit pouvoir accéder à toutes les commandes selon leur statut (en retard, annulée etc…) et en gérer la modification. Il doit aussi avoir la possibilité d’ajouter de nouveaux produits, de modifier ou de supprimer ceux existants.
 Le client pourra ajouter des produits dans le panier et passer des commandes. Il pourra également donner une note à son expérience sur le site par l’intermédiaire d’un formulaire seulement si la commande possède un statut particulier.
 Seul un client possédant un compte et étant connecté aura accès à toutes les fonctionnalités du site, comme ajouter des produits au panier ou voir le récapitulatif des ses commandes effectuées par exemple. 
 
-_- Fonctionnalités :_
+# _1.3- Fonctionnalités :_
 
 Concernant la gestion du site, l’objectif du projet est de créer un tableau de bord qui pourra permettre aux administrateurs de gérer les produits, les commandes, les comptes d’utilisateurs et son propre compte admin.
 
-_- Droits Admin/Clients :_
+# _1.4- Droits Admin/Clients :_
 
 _Côté Admin :_
 
@@ -45,7 +43,7 @@ _Côté Client :_
 -	Message : Le client aura la possibilité d’envoyer un message (C).
 
 
-# _1.2- Technologies utilisées_
+# _1.5- Technologies utilisées_
 
 - HTML
 - CSS
@@ -55,11 +53,25 @@ _Côté Client :_
 
 # 2- La base de données
 
+# _2.1- Le MCD_
+
 A l’aide du logiciel de modélisation conceptuelle de données ‘Looping’, j’ai commencé par réaliser le MCD (Modèle Conceptuel de Données) en suivant les demandes du cahier des charges.
 
 ![MCD](https://github.com/cedric-chimot/Village-green/assets/106061524/909e54a1-e488-45ed-bcab-b4263c43a9ce)
 
+Dans ce MCD, on peut voir des Entités contenant chacune des attributs. Entre chaque Entité, on retrouve des relations ou associations (Verbe) qui expliquent et précisent comment les Entités sont reliées entre elles (Les ovales avec leurs « pattes » qui se rattachent aux Entités). Enfin, des cardinalités qui sont les petits chiffres au-dessus des « pattes ». Le MCD a été modifié plusieurs fois afin d’intégrer au mieux les différentes fonctionnalités du site, notamment les reviews.
+
+# _2.2- Le MLD_
+
+Du MCD, toujours grâce à Looping, j’ai pu élaborer le MLD, qui est le Modèle Logique de Données. Le MLD transforme les entités en tables avec ses attributs et transformes les associations en clés primaire et clés étrangères. Comme dans l’exemple ci-dessous.
+
 ![MLD](https://github.com/cedric-chimot/Village-green/assets/106061524/bf944573-3baa-41dc-8633-f048515b80c6)
+
+# _2.3- Dictionnaire de données_
+
+Pour rester dans un vocabulaire conceptuel il a fallu créer un dictionnaire de données, celui-ci regroupe toutes les données et le vocabulaire commun qui figureront dans le projet et le MCD.
+
+![dico](https://github.com/cedric-chimot/Village-green/assets/106061524/16f91e7a-1cbe-4742-92d7-1dcb9b76af58)
 
 # 3- Le projet en détail
 
