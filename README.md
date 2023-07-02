@@ -94,17 +94,29 @@ Pour rester dans un vocabulaire conceptuel il a fallu créer un dictionnaire de 
 
 _- Le panier :_
 
+Ici le récapitulatif des produits dans le panier.
+
 ![panier-village](https://github.com/cedric-chimot/Village-green/assets/106061524/51c00524-f2aa-487a-864e-f0ce32a106b1)
+
+On a la possibilité de valider le panier, ce qui nous reverra sur la page de validation de commande ci-après, ou l'on peut également supprimer tout ou partie des articles dans le panier.
 
 _- Les commandes :_
 
 _Validation de commande ->_
 
+Lorsqu'on clique sur le bouton "passer la commande", on arrive sur cette page :
+
 ![commandes1-village](https://github.com/cedric-chimot/Village-green/assets/106061524/9c7c31bc-9dc0-4848-b5a4-06dbe32f3114)
+
+Il y a un récapitulaif des articles dans le panier. On doit ensuite compléter le formulaire avec toutes nos coordonnées pour pouvoir enfin valider la commande.
 
 _Récapitulatif des commandes passées ->_
 
+Une fois la commande passée, on la retrouve sur la page regroupant toutes les commandes effectuées : 
+
 ![commandes-village](https://github.com/cedric-chimot/Village-green/assets/106061524/e2771d52-2750-47a0-b23b-07ab75053b02)
+
+Par défaut, le statut de la commande est "en attente". L'admin pourra en changer le statut lorsque celle-ci aura éé traitée. Le client pourra alors donner son avis si la commande est complètement validée.
 
 _- Avis sur les commandes passées :_
 
