@@ -86,6 +86,8 @@ Pour rester dans un vocabulaire conceptuel il a fallu créer un dictionnaire de 
 ![apropos-village](https://github.com/cedric-chimot/Village-green/assets/106061524/232acf60-3259-481e-8225-7181afbb7153)
 ![apropos1-village](https://github.com/cedric-chimot/Village-green/assets/106061524/40de372f-a7c0-4370-aaf2-8209ff48821f)
 
+On peut trouver une requête dans la section ‘à propos’ afin d’afficher sur la page dédiée les derniers commentaires postés par les clients.
+
 # _3.3 Les produits_
 
 ![produits-village](https://github.com/cedric-chimot/Village-green/assets/106061524/9677ac4b-4c48-44b1-8245-16a70dd254ca)
@@ -120,7 +122,15 @@ Par défaut, le statut de la commande est "en attente". L'admin pourra en change
 
 _- Avis sur les commandes passées :_
 
+L’idée avec cette fonction était de permettre aux clients de laisser leur avis sur leur expérience sur le site à la suite d’une commande. L’utilisateur devra bien entendu être connecté au site s’il veut accéder au récapitulatif de ses commandes et laisser une appréciation.
+On commencera donc par créer un formulaire. Il est accessible depuis le récapitulatif des commandes en appuyant sur le bouton ‘Donner votre avis’. Ce bouton est paramétré de façon qu’un commentaire ne puisse être donné que si la commande est complètement terminée. Le bouton d’accès au formulaire sera bloqué si le statut de la commande est autre que terminé.
+
 ![avis-village](https://github.com/cedric-chimot/Village-green/assets/106061524/eaf0d32f-ea1d-428d-95b1-1fd2e018cbe0)
+
+Une fonction Javascript permet de créer une animation sur les étoiles dans le formulaire. Au survol, celles-ci changent de couleur. En cliquant dessus, la couleur se fixe et tant que le formulaire n'est pas validé on peut changer sa note en cliquant sur n'importe quelle étoile.
+
+Une fois que le client à valider le formulaire, le commentaire s’affiche en dessous, il trouvera également tous les avis qu’il a déjà posté.
+
 ![avis1-village](https://github.com/cedric-chimot/Village-green/assets/106061524/06259c04-65db-48ef-b472-749bbbfbfa89)
 
 # _3.5 Dashboard administrateur_
@@ -148,3 +158,5 @@ _- Gestion des utilisateurs :_
 ![dashboard4-village](https://github.com/cedric-chimot/Village-green/assets/106061524/250f5f33-395e-4350-9e55-883e838d07cd)
 
 # 4- Conclusion
+
+Cette formation m’a permis de découvrir un nouveau métier et m’a permis également d’apprécier cette découverte. J’ai eu la chance de développer un projet depuis le début en mode From Scratch, c’est-à-dire, de la découverte du cahier des charges à la conception en passant par le développement de celui-ci. Cela a été très formateur.
