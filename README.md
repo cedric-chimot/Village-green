@@ -136,7 +136,13 @@ _- Gestion des produits :_
 ![dashboard5-village](https://github.com/cedric-chimot/Village-green/assets/106061524/6f442599-cebc-4ef2-849d-d7eb1aa19be4)
 
 _- Gestion des commandes :_
+
+Suivant le cahier des charges, il était demandé de pouvoir assurer une gestion des commandes suivant leur statut. Pour ce faire, j’ai décidé de créer un CRUD (Create, Read, Update, Delete).
+La partie Create se fait du côté du client lorsque celui-ci valide une commande. Le Read consistera à afficher les données des commandes sur une page, la partie modification Update ainsi que la suppression Delete seront liés à l’ID d’une commande en particulier pour que ne soit mis à jour que la commande concernée.
+
 ![dashboard3-village](https://github.com/cedric-chimot/Village-green/assets/106061524/63fcd97b-2ad2-4173-a439-f63214c39988)
+
+Dans le Dashboard, on pourra voir les commandes selon leur statut, ci-dessus par exemple la page recensant les commandes passées par les utilisateurs. Une liste déroulante affichera divers statuts (en attente, terminée etc...) que l'admin pourra modifier.
 
 _- Gestion des utilisateurs :_
 ![dashboard4-village](https://github.com/cedric-chimot/Village-green/assets/106061524/250f5f33-395e-4350-9e55-883e838d07cd)
