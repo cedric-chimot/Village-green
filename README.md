@@ -78,8 +78,12 @@ Pour rester dans un vocabulaire conceptuel il a fallu créer un dictionnaire de 
 
 # _3.1 Page d'accueil_
 
+La page d'accueil du site :
+
 ![home-village](https://github.com/cedric-chimot/Village-green/assets/106061524/39927801-8492-4361-a0f8-5c4de37393bd)
 ![home1-village](https://github.com/cedric-chimot/Village-green/assets/106061524/fc051876-cd38-421e-b9c2-a6e25731c1f3)
+
+Il y a une Navbar pour naviguer sur chaque page, Li'cône utilisateur pour afficher l'identifiant de la personne connectée, se connecter, s'inscrire ou se déconnecter. Les images était fournies dans le dossier d'exercice avec le cahier des charges. Au niveau catégories, chaque image renvoie à la page de la catégrie correspondante.
 
 # _3.2 Section "à propos"_
 
