@@ -83,7 +83,7 @@ La page d'accueil du site :
 ![home-village](https://github.com/cedric-chimot/Village-green/assets/106061524/39927801-8492-4361-a0f8-5c4de37393bd)
 ![home1-village](https://github.com/cedric-chimot/Village-green/assets/106061524/fc051876-cd38-421e-b9c2-a6e25731c1f3)
 
-Il y a une Navbar pour naviguer sur chaque page, L'icône utilisateur pour afficher l'identifiant de la personne connectée, se connecter, s'inscrire ou se déconnecter. Les images étaient fournies dans le dossier d'exercice avec le cahier des charges. Au niveau catégories, chaque image renvoie à la page de la catégrie correspondante.
+Il y a une Navbar pour naviguer sur chaque page, L'icône utilisateur pour afficher l'identifiant de la personne connectée, se connecter, s'inscrire ou se déconnecter. Les images étaient fournies dans le dossier d'exercice avec le cahier des charges. Au niveau "catégories", chaque image renvoie à la page de la catégrie correspondante.
 
 # _3.2 Section "à propos"_
 
@@ -94,7 +94,11 @@ On peut trouver une requête dans la section ‘à propos’ afin d’afficher s
 
 # _3.3 Les produits_
 
+La liste des produits :
+
 ![produits-village](https://github.com/cedric-chimot/Village-green/assets/106061524/9677ac4b-4c48-44b1-8245-16a70dd254ca)
+
+Il y a un bouton pour ajouter au panier. Si l'utilisateur n'est pas connecté il est renvoyé sur la page de login.
 
 # _3.4 Les commandes_
 
