@@ -98,7 +98,7 @@ La liste des produits :
 
 ![produits-village](https://github.com/cedric-chimot/Village-green/assets/106061524/9677ac4b-4c48-44b1-8245-16a70dd254ca)
 
-Il y a un bouton pour ajouter au panier. Si l'utilisateur n'est pas connecté il est renvoyé sur la page de login.
+Il y a un bouton pour ajouter au panier. Si l'utilisateur n'est pas connecté il ne peut pas ajouter d'articles au panier et il est renvoyé sur la page de login.
 
 # _3.4 Les commandes_
 
@@ -144,14 +144,25 @@ Une fois que le client à valider le formulaire, le commentaire s’affiche en d
 # _3.5 Dashboard administrateur_
 
 _- Accueil admin :_
+
+Sur cette page, l'admin peut voir toutes les informations concernant le site et en gérer les options.
+
 ![dashboard-village](https://github.com/cedric-chimot/Village-green/assets/106061524/7fdd27e2-0da0-4160-922a-1d713417d132)
 
 _- Gestion des admins :_
+
+L'admin peut voir tous les comptes admins créés mais ne peut que modifier son compte personnel et ses informations pas celui des autres admins.
+
 ![dashboard1-village](https://github.com/cedric-chimot/Village-green/assets/106061524/4aedc77b-e274-4869-bb39-9fec653986c7)
 
 _- Gestion des produits :_
+
+Il y a ici un formulaire pour ajouter des produits.
+
 ![dashboard2-village](https://github.com/cedric-chimot/Village-green/assets/106061524/f84f6c23-6421-4b19-96c3-c5a37627ead0)
 ![dashboard5-village](https://github.com/cedric-chimot/Village-green/assets/106061524/6f442599-cebc-4ef2-849d-d7eb1aa19be4)
+
+L'admin peut les supprimer ou les modifier.
 
 _- Gestion des commandes :_
 
@@ -163,6 +174,9 @@ La partie Create se fait du côté du client lorsque celui-ci valide une command
 Dans le Dashboard, on pourra voir les commandes selon leur statut, ci-dessus par exemple la page recensant les commandes passées par les utilisateurs. Une liste déroulante affichera divers statuts (en attente, terminée etc...) que l'admin pourra modifier.
 
 _- Gestion des utilisateurs :_
+
+L'admin peut voir tous les inscrits sur le site et supprimer leur compte s'il le faut.
+
 ![dashboard4-village](https://github.com/cedric-chimot/Village-green/assets/106061524/250f5f33-395e-4350-9e55-883e838d07cd)
 
 # 4- Conclusion
