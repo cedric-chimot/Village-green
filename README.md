@@ -128,7 +128,7 @@ Une fois la commande passée, on la retrouve sur la page regroupant toutes les c
 
 Par défaut, le statut de la commande est "en attente". L'admin pourra en changer le statut lorsque celle-ci aura éé traitée. Le client pourra alors donner son avis si la commande est complètement validée.
 
-_- Avis sur les commandes passées :_
+_Avis sur les commandes passées ->_
 
 L’idée avec cette fonction était de permettre aux clients de laisser leur avis sur leur expérience sur le site à la suite d’une commande. L’utilisateur devra bien entendu être connecté au site s’il veut accéder au récapitulatif de ses commandes et laisser une appréciation.
 On commencera donc par créer un formulaire. Il est accessible depuis le récapitulatif des commandes en appuyant sur le bouton ‘Donner votre avis’. Ce bouton est paramétré de façon qu’un commentaire ne puisse être donné que si la commande est complètement terminée. Le bouton d’accès au formulaire sera bloqué si le statut de la commande est autre que terminé.
